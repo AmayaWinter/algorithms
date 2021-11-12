@@ -14,6 +14,11 @@ Approach:
       equal to than the current node, then go right, otherwise left.
   4.  At each node compare the difference between the target and the current node to see if it is
       smaller than the previously found closest node, if so, replace the closetsNum variable
+
+Time: O(n) worst case if tree is unbalanced,
+      O(log(n)) average since we discard half the potential inputs at each node
+
+Space: O(1), only using 3 variables regardless of input size
 */
 
 
