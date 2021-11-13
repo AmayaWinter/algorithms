@@ -2,3 +2,5 @@
 .DS_store
 notes
 impl
+package-lock.json
+node_modules
