@@ -34,7 +34,15 @@ class LinkedList {
   }
 }
 
-
+/*
+Time:
+  peek: O(1)
+  push: O(1)
+  pop: O(1)
+  getMin: O(1)
+  getMax: O(1)
+Space: O(n);
+ */
 class MinMaxStack {
   constructor() {
     this.stack = new LinkedList();
