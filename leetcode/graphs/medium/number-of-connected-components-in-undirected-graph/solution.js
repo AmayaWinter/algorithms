@@ -1,6 +1,9 @@
 
 //Time: O(V+E) - for every node we explore all it's edges
-//Space: O(n) - visited list will contain n vertices
+//Space: O(V+E) -
+//  visited has V elements, and
+//  adjList has E elements
+//  dfs call stack potentially V deep
 
 /*
   Approach:
@@ -33,7 +36,6 @@ const countComponents = function(n, edges) {
       numComponents++;
     }
   }
-
 
   function dfs(i) {
     visited.add(i); //mark this vertex as visited
