@@ -53,7 +53,6 @@ function solutionDPSums(arr) {
  Approach:
   using DP to solve the smaller problem
   same as above, but we don't actually need an array because we only care about the last two sums
-  We keep an array of the max sum we can generate up until i
  */
 function solutionDPOpt(arr) {
   if(arr.length <=2 ) { return Math.max(...arr); }

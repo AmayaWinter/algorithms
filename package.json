@@ -4,7 +4,7 @@
   "description": "A repo for my solutions to various problems on LeetCode, CodeWars, AlgoExpert and others.",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=test mocha \"./**/*.test.js\" --watch"
+    "test": "NODE_ENV=test mocha ./**/*.test.js --watch"
   },
   "repository": {
     "type": "git",

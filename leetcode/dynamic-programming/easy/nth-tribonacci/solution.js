@@ -1,5 +1,5 @@
 /**
- * @param {number} n
+ * @param {number}
  * @return {number}
  */
 

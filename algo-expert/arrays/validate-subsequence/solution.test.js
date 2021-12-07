@@ -1,7 +1,7 @@
 const {expect} = require("chai");
 const isValidSubsequence = require("./solution");
 
-describe.only("isValidSubsequence:", function() {
+describe("isValidSubsequence:", function() {
   const arr = [7 ,10 ,3 ,2 ,-1 ,3, 45 ,13, 23];
   it("should validate single", () => {
     expect(isValidSubsequence(arr, [2])).to.deep.equal(true);
